@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://movie-watchlist-api-iza9.onrender.com',
 });
 
 API.interceptors.request.use((config) => {
